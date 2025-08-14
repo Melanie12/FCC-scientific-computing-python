@@ -1,6 +1,5 @@
 #Build an Arithmetic formatter Project
 #Students in primary school often arrange arithmetic problems vertically to make them easier to solve. For example, "235 + 52" becomes:
-#Students in primary school often arrange arithmetic problems vertically to make them easier to solve. For example, "235 + 52" becomes:
 
 #  235
 #+  52
@@ -45,3 +44,9 @@
         #There should be four spaces between each problem.
         #There should be dashes at the bottom of each problem. The dashes should run along the entire length of each problem individually. (The example above shows what this should look like.)
 
+
+def arithmetic_arranger(problems, show_answers=False):
+
+    return problems
+
+print(f'\n{arithmetic_arranger(["32 + 698", "3801 - 2", "45 + 43", "123 + 49"])}')
